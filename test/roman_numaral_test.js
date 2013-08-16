@@ -39,6 +39,12 @@ describe('roman', function(){
 	    ["LXV",   65],
 	    ["LXVI",  66],
 	    ["XL",    40],
+	    ["C",    100],
+	    ["XC",    90],
+	    ["D",    500],
+	    ["CD",   400],
+	    ["M",   1000],
+	    ["CM",   900],
 	];
 	for (var index = 0; index < cases.length; index++) {
 	    var current = cases[index];
