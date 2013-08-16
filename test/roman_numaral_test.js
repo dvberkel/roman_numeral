@@ -29,6 +29,15 @@ describe('roman', function(){
 	    ["IX",     9],
 	    ["XIX",   19],
 	    ["L",     50],
+	    ["IL",    49],
+	    ["LI",    51],
+	    ["LV",    55],
+	    ["LIX",   59],
+	    ["LX",    60],
+	    ["LXI",   61],
+	    ["LXIV",  64],
+	    ["LXV",   65],
+	    ["LXVI",  66],
 	];
 	for (var index = 0; index < cases.length; index++) {
 	    var current = cases[index];
