@@ -33,7 +33,7 @@ describe('roman', function(){
 	    var current = cases[index];
 	    var expected = current[0]; var n = current[1];
 	    it('should return \'' + expected + '\' on ' + n, function(){
-		assert.equal(expected, roman(n));
+		assert.equal(roman(n), expected);
 	    });
 	}
     });
