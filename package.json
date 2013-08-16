@@ -1,0 +1,19 @@
+{
+  "name": "roman_numeral",
+  "version": "0.0.0",
+  "description": "The Roman Numeral Kata in JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dvberkel/roman_numeral.git"
+  },
+  "keywords": [
+    "kata",
+    "roman",
+    "numeral"
+  ],
+  "author": "Daan van Berkel",
+  "license": "MIT"
+}
