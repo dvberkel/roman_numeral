@@ -28,6 +28,7 @@ describe('roman', function(){
 	    ["IV",     4],
 	    ["IX",     9],
 	    ["XIX",   19],
+	    ["L",     50],
 	];
 	for (var index = 0; index < cases.length; index++) {
 	    var current = cases[index];
