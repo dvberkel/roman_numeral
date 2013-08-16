@@ -1,4 +1,4 @@
-Roman Numeral
+Roman Numeral [![wercker status](https://app.wercker.com/status/e857c51c595a8eefd8e501fd9dc68c9b/m "wercker status")](https://app.wercker.com/project/bykey/e857c51c595a8eefd8e501fd9dc68c9b)
 =============
 
 This is the [Roman Numeral Kata][kata] in JavaScript.
