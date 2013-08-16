@@ -9,10 +9,22 @@ describe('roman', function(){
 
     describe('behaviour', function(){
 	var cases = [
-	    ["I", 1],
-	    ["V", 5],
-	    ["X", 10],
-	    ["II", 2],
+	    ["I",      1],
+	    ["V",      5],
+	    ["X",     10],
+	    ["II",     2],
+	    ["III",    3],
+	    ["VI",     6],
+	    ["VII",    7],
+	    ["VIII",   8],
+	    ["XI",    11],
+	    ["XII",   12],
+	    ["XIII",  13],
+	    ["XV",    15],
+	    ["XVI",   16],
+	    ["XVII",  17],
+	    ["XVIII", 18],
+	    ["XX",    20],
 	];
 	for (var index = 0; index < cases.length; index++) {
 	    var current = cases[index];
