@@ -8,11 +8,16 @@ describe('roman', function(){
     })
 
     describe('behaviour', function(){
-	it('should return \'I\' on 1', function(){
-	    assert.equal('I', roman(1));
-	})
-	it('should return \'V\' on 5', function(){
-	    assert.equal('V', roman(5));
-	})
+	var cases = [
+	    ["I", 1],
+	    ["V", 5],
+	];
+	for (var index = 0; index < cases.length; index++) {
+	    var current = cases[index];
+	    var expected = current[0]; var n = current[1];
+	    it('should return \'' + expected + '\' on ' + n, function(){
+		assert.equal(expected, roman(n));
+	    });
+	}
     });
 });
