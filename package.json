@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "The Roman Numeral Kata in JavaScript",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --watch test/*_test.js"
+    "test": "./node_modules/.bin/mocha test/*_test.js"
   },
   "repository": {
     "type": "git",
