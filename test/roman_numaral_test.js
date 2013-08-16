@@ -11,6 +11,7 @@ describe('roman', function(){
 	var cases = [
 	    ["I", 1],
 	    ["V", 5],
+	    ["X", 10],
 	];
 	for (var index = 0; index < cases.length; index++) {
 	    var current = cases[index];
